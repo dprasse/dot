@@ -3,4 +3,4 @@
 .config/configstore
 .config/coc
 
-.config/**/coc/
+.config/coc/
