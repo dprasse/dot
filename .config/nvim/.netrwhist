@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/dprasse/git/dot/.config/nvim/keys'
 let g:netrw_dirhist_7='/Users/dprasse/.config/nvim/autoload'
 let g:netrw_dirhist_6='/Users/dprasse/.config/nvim/vim-plug'
 let g:netrw_dirhist_5='/Users/dprasse/.config/nvim/general'

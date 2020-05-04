@@ -38,4 +38,6 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 " Run Black Formatter on every save
 autocmd BufWritePre *.py execute ':Black'
 
+" Save button for python
+autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 

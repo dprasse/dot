@@ -20,3 +20,16 @@ inoremap <expr><TAB> pumvisible() ? \<C-n>" : "\<TAB>"
 vnoremap < <gv
 vnoremap > >gv
 
+" Use CTRL-S for saving, also in Insert mode
+noremap <C-S> :update<CR>
+vnoremap <C-S> <C-C>:update<CR>
+inoremap <C-S> <C-O>:update<CR>
+
+" -------- Standard Binds --------
+" Basic file system commands
+nnoremap <C-t> :touch<Space>
+nnoremap <C-d> :!mkdir<Space>
+nnoremap <C-g> :mv<Space>%<Space>
+
+" Auto run python files with F5
+autocmd FileType python nnoremap <buffer> <F5> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
