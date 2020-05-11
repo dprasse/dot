@@ -1,10 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/dprasse/git/dot/.config/nvim'
+let g:netrw_dirhist_3='/Users/dprasse/.oh-my-zsh/custom'
+let g:netrw_dirhist_2='/Users/dprasse'
+let g:netrw_dirhist_1='/Users/dprasse/.oh-my-zsh'
+let g:netrw_dirhist_0='/Users/dprasse/git/dot/.config/nvim/general'
+let g:netrw_dirhist_9='/Users/dprasse/Documents/backups/Past/Bye'
 let g:netrw_dirhist_8='/Users/dprasse/git/dot/.config/nvim/keys'
 let g:netrw_dirhist_7='/Users/dprasse/.config/nvim/autoload'
 let g:netrw_dirhist_6='/Users/dprasse/.config/nvim/vim-plug'
 let g:netrw_dirhist_5='/Users/dprasse/.config/nvim/general'
-let g:netrw_dirhist_4='/Users/dprasse/.config/nvim/vim-plug'
-let g:netrw_dirhist_3='/Users/dprasse/.config/nvim'
-let g:netrw_dirhist_2='/Users/dprasse/Documents/School Work/University/Senior Year/Spring/CS 371L/pokemals/Pokemals/Pods'
-let g:netrw_dirhist_1='/Users/dprasse/Documents/Coding'

@@ -20,6 +20,11 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+ZSH_HIGHLIGHT_STYLES[alias]=fg=cyan,bold
+ZSH_HIGHLIGHT_STYLES[builtin]=fg=cyan,bold
+ZSH_HIGHLIGHT_STYLES[function]=fg=cyan,bold
+ZSH_HIGHLIGHT_STYLES[command]=fg=cyan,bold
+
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='nvim'

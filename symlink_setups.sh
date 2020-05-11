@@ -1,4 +1,4 @@
-# Script to automatically add symlinks
+h# Script to automatically add symlinks
 
 CWD=$(pwd)
 

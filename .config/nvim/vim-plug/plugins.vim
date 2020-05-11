@@ -32,6 +32,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jbgutierrez/vim-better-comments'
     " Python Formatter
     Plug 'psf/black', { 'branch': 'stable' }
+    " Ranger File 
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
   endif
 
 
