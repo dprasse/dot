@@ -8,6 +8,10 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+
+  " Better Comments
+  Plug 'preservim/nerdcommenter'
+
   if exists('g:vscode')
     " Easy motion for VSCode
     Plug 'asvetliakov/vim-easymotion'
@@ -32,8 +36,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jbgutierrez/vim-better-comments'
     " Python Formatter
     Plug 'psf/black', { 'branch': 'stable' }
-    " Ranger File 
-    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
   endif
 
 
