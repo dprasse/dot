@@ -1,5 +1,14 @@
 PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
 
+## Antigen Plugin Manager
+source /usr/local/share/antigen/antigen.zsh
+antigen use oh-my-zsh
+
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-completions
+
+antigen apply
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/dprasse/.oh-my-zsh"
@@ -13,9 +22,6 @@ CASE_SENSITIVE="true"
 plugins=(
     git
     vi-mode
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-    zsh-completions
   )
 
 source $ZSH/oh-my-zsh.sh
