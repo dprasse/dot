@@ -10,8 +10,10 @@ antigen bundle zsh-users/zsh-completions
 
 antigen apply
 
+## End Antigen
+
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/dprasse/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Custom Theme
 ZSH_THEME="steeef"
@@ -40,6 +42,7 @@ if [[ -n $SSH_CONNECTION ]]; then
 
 # BINDS
 bindkey ^O forward-char 
+bindkey ^K kill-line
 
 
 alias lg='lazygit'
