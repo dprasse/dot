@@ -18,6 +18,9 @@ nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
 
+" Go forward buffer
+nnoremap <C-l> <C-i>
+
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? \<C-n>" : "\<TAB>"
 
