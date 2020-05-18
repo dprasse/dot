@@ -9,6 +9,12 @@ nnoremap <M-k>    :resize +2<CR>
 nnoremap <M-h>    :vertical resize -2<CR>
 nnoremap <M-l>    :vertical resize +2<CR>
 
+" For more convient window switching
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+nnoremap <C-H> <C-W>h
+
 " Easy CAPS
 inoremap <c-u> <ESC>viwUi
 nnoremap <c-u> viwU<Esc>
@@ -25,7 +31,7 @@ nmap <leader>gs :G<CR>
 
 
 " Go forward buffer
-nnoremap <C-l> <C-i>
+nnoremap <C-p> <C-i>
 
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? \<C-n>" : "\<TAB>"
