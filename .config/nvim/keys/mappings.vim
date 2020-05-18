@@ -40,6 +40,11 @@ inoremap <expr><TAB> pumvisible() ? \<C-n>" : "\<TAB>"
 vnoremap < <gv
 vnoremap > >gv
 
+
+" Moving highlighted text
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+
 " Use CTRL-S for saving, also in Insert mode
 noremap <C-S> :update<CR>
 vnoremap <C-S> <C-C>:update<CR>
